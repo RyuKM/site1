@@ -1,9 +1,17 @@
 img {
-    width: 1500px;
+    position: relative; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1400px;
     height: 350px;
 }
 body {
-    background: linear-gradient(11deg, #00283d, #000508);
+    background: linear-gradient(11deg, #e5e8eb, #000508);
+}
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+
 }
 a {
     color: azure;
