@@ -13,6 +13,12 @@ header {
     padding: 20px;
 
 }
+
+.produto-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
 a {
     color: azure;
     text-decoration: none;
@@ -35,4 +41,10 @@ h2 {
     text-align: center;
     font-size: 110px;
     text-decoration: rgb(251, 255, 0);
+}
+@media screen and (max-width: 768px){
+    .produto-container{
+        width:100%;
+        flex-direction: column;
+    }
 }
